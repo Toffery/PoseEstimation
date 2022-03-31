@@ -6,7 +6,7 @@ mp_draw = mp.solutions.drawing_utils
 mp_pose = mp.solutions.pose
 pose = mp_pose.Pose()
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture('video1.mp4')
 cur_time = 0
 prev_time = 0
 while True:

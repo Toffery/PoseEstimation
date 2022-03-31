@@ -4,7 +4,7 @@ import time
 import PoseEstimationModule as pem
 
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture('video1.mp4')
 prev_time = 0
 detector = pem.PoseDetector()
 while True:
